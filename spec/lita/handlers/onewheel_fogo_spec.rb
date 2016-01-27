@@ -8,6 +8,6 @@ describe Lita::Handlers::OnewheelFogo, lita_handler: true do
 
   it 'converts to fogo float' do
     send_command 'fogo 31'
-    expect(replies.last).to eq('$30 equals 1.03 fogo.')
+    expect(replies.last).to eq('$31 equals 1.03 fogo.')
   end
 end
