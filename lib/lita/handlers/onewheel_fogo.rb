@@ -12,7 +12,7 @@ module Lita
           output = output.round(2)
         end
 
-        response.reply "$#{request} equals #{output} fogo."
+        response.reply "$#{request} equals (fogo)#{output}."
       end
 
       Lita.register_handler(self)
